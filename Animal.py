@@ -10,6 +10,7 @@ class Animal:
     def talk(self):
         print("Hi there. I am an animal.")
 
+
     def eat(self):
         print(f"{self._name} has {self._eye_color} eyes and eats {self._food}, yum yum!")
         print(f"Speed before eating: {self._speed}")
