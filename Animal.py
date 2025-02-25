@@ -31,3 +31,8 @@ class Animal:
         else:
             print("Speed cannot be negative.")
 
+    def food(self):
+        print("feed animal")
+
+
+
