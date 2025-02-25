@@ -8,7 +8,8 @@ class Animal:
         print(f"Hello, I am {self._name}")
 
     def talk(self):
-        print("Hi there! I am an animal")
+        print("Hi there. I am an animal.")
+
 
     def eat(self):
         print(f"{self._name} has {self._eye_color} eyes and eats {self._food}, yum yum!")
@@ -30,9 +31,4 @@ class Animal:
             self._speed = speed
         else:
             print("Speed cannot be negative.")
-
-    def food(self):
-        print("feed animal")
-
-
 
