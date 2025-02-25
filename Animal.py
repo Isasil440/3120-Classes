@@ -31,6 +31,4 @@ class Animal:
             self._speed = speed
         else:
             print("Speed cannot be negative.")
-    
-    def awake(self):
-        print("Animal is awake.")
+
