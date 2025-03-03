@@ -8,10 +8,15 @@ class Animal:
         print(f"Hello, I am {self._name}")
 
     def talk(self):
-        print("Hi there. I am an animal.")
+        print("Hi there. I am an animal, and I am very energetic.")
+    
+    def update(self, name):
+        self._name = name
+        print(f"Hello, I am {self._name}")
 
 
     def eat(self):
+        print("Hi there. I am an animal, and I am very energetic.")
         print(f"{self._name} has {self._eye_color} eyes and eats {self._food}, yum yum!")
         print(f"Speed before eating: {self._speed}")
         self._speed += 1  # Increase speed after eating
